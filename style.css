@@ -90,6 +90,27 @@ body {
 	background-color: black;
 }
 
+@media(max-width:640px) {
+	.scrollDown {
+		font-size: 15px;
+	}
+
+	.scrollUp {
+		font-size: 15px;
+		bottom: 30%;
+	}
+}
+
+@media(max-width:360px) {
+	.scrollDown {
+		font-size: 15px;
+	}
+
+	.scrollUp {
+		font-size: 15px;
+		bottom: 30%;
+	}
+}
 
 /* banner */
 header {
@@ -567,6 +588,14 @@ main {
 
 @media(max-width: 640px) {
 
+	.article,
+	.article1,
+	.article2,
+	.article3,
+	.article4 {
+		width: 85%;
+	}
+
 	.article h4,
 	.article1 h4,
 	.article2 h4,
@@ -590,6 +619,26 @@ main {
 	.article3 p,
 	.article4 p {
 		font-size: 13px;
+	}
+}
+
+@media(max-width: 360px) {
+
+	.article,
+	.article1,
+	.article2,
+	.article3,
+	.article4 {
+		width: 80%;
+	}
+
+	.article h4,
+	.article1 h4,
+	.article2 h4,
+	.article3 h4,
+	.article4 h4 {
+		font-size: 20px;
+		line-height: 40px;
 	}
 }
 
@@ -706,4 +755,31 @@ a.media:nth-of-type(5) {
 	.footCol1 .clockWrapp {
 		font-size: 17px;
 	}
+}
+
+@media(max-width: 640px) {
+	.media {
+		font-size: 15px;
+	}
+
+	.footCol1 .clockWrapp {
+		font-size: 27px;
+		padding: 5px;
+	}
+}
+
+@media(max-width: 360px) {
+	footer {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.social {
+		grid-template-columns: 1fr;
+	}
+
+	.footCol1 .clockWrapp {
+		font-size: 22px;
+		padding: 5px;
+	}
+
 }
